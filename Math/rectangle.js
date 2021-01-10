@@ -1,7 +1,13 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.calculateRectangle = void 0;
-function calculateRectangle(width, length) {
-    return width * length;
-}
-exports.calculateRectangle = calculateRectangle;
+System.register([], function (exports_1, context_1) {
+    "use strict";
+    var __moduleName = context_1 && context_1.id;
+    function calculateRectangle(width, length) {
+        return width * length;
+    }
+    exports_1("calculateRectangle", calculateRectangle);
+    return {
+        setters: [],
+        execute: function () {
+        }
+    };
+});
